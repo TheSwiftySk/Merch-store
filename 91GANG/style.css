@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+#mainBody{
+	background-image: url('background.jpg');
+	background-attachment: fixed;
+	background-size: cover;	
+	color: white;
+}
+
+.shop-site-content{
+	background-image: url('background.jpg');
+	background-attachment: fixed;
+	background-size: cover;	
+}
+
+#allAlbums{
+	margin-left: 80px;
+}
+
+.album{
+  margin-bottom: 20px;
+  margin-right: 20px;
+  opacity:0.4;
+  filter:alpha(opacity=80); 
+  transition: transform 1s;
+}
+.album:hover {
+  transform: scale(1.2);
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}
+
+.navbar-nav{
+	color: blue; 
+	  margin-left: 50px;
+	  margin-top: 40px;
+	  font-family: 'Staatliches'; 
+	  font-size: 40px;
+}
+
+#brand{
+	margin-top: 40px;
+	margin-left: 75px;
+	font-family: 'Righteous';
+	font-size: 50px;	
+}
+
+#albumLink{
+	font-size: 20px;
+	margin-top: 50px;
+	margin-left: 550px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.endInfo{
+	margin-top: 440px;
+	margin-left: 100px;
+	font-size: 20px;
+	color: white;
+}
+
+#parent{
+	margin-top: 20px;
+    height: 500px;
+    width: 700px;
+    overflow: hidden;
+    margin-left: 80px;
+}
+
+#child{
+    height: 500px;
+    width: 700px;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+.albumLink-header{
+	color: white;
+	margin-left: 25px;
+	font-family: 'Staatliches'; 
+	font-size: 20px;
+}
+
+#topThings{
+	color: red;
+	margin-left: 345px;
+	font-family: 'Staatliches'; 
+	font-size: 30px;	
+}
+
+#drehi{
+	margin-left: 250px;
+	margin-top: 400px;
+}
+
+
